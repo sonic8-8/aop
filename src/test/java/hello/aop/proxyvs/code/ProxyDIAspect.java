@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.Before;
 
 @Slf4j
 @Aspect
-public class ProxyDiAspect {
+public class ProxyDIAspect {
 
     @Before("execution(* hello.aop..*.*(..))")
     public void doTrace(JoinPoint joinPoint) {
